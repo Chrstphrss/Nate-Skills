@@ -1,0 +1,12 @@
+import { AgentAdapter } from './base.js';
+export * from './base.js';
+export * from './antigravity.js';
+export * from './claude-code.js';
+export * from './codex.js';
+export * from './cursor.js';
+export * from './gemini-cli.js';
+export * from './opencode.js';
+export * from './manual.js';
+export declare const AGENT_ADAPTERS: AgentAdapter[];
+export declare function getAgentAdapter(id: string): AgentAdapter | undefined;
+export declare function getAllAgentAdapters(): AgentAdapter[];

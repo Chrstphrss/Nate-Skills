@@ -1,0 +1,39 @@
+{
+  "name": "nate-skills",
+  "version": "1.0.0",
+  "description": "Practical Guardrails for AI Coding Agents.",
+  "type": "module",
+  "main": "./dist/installer/cli.js",
+  "bin": {
+    "nate-skills": "./dist/installer/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "start": "node ./dist/installer/cli.js"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "skills",
+    "guardrails",
+    "coding",
+    "cli",
+    "antigravity",
+    "cursor",
+    "claude-code"
+  ],
+  "author": "Nate",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
